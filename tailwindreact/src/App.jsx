@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import Navbar from './components/Navbar';
-import BlogCard from './components/Blog';
 import Page from './components/Page';
 
 function App() {

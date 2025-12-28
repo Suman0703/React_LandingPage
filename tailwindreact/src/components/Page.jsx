@@ -54,7 +54,7 @@ export default function Page() {
   ];
 
   return (
-    <section className="bg-[#f9f9f9] py-16 min-h-screen">
+    <section className="bg-[#f9f9f9] py-16 min-h-screen dark:bg-slate-950">
       <div className="max-w-[1400px] mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {posts.map((post, idx) => (
